@@ -49,7 +49,8 @@ var BodyYPostiton = 400;
 var BodyWidth = 700;
 var BodyHeight = 60;
 ellipse(BodyYPostiton, BodyWidth, BodyHeight);
-	
+    
+
 //Arms
 var r = 255;
 var g = 255;
@@ -62,6 +63,19 @@ var ArmHeight = 15;
 ellipse(450,ArmYPostiton, ArmWidth, ArmHeight);
 //Left
 ellipse(350,ArmYPostiton, ArmWidth, ArmHeight);
+
+//Hands
+var r = 0;
+var g = 0;
+var b = 0;
+fill(r, g, b)
+var HandYPostiton = 700;
+var HandWidth = 20;
+var HandHeight = 20;
+//RightHand
+ellipse(472,HandYPostiton, HandWidth, HandHeight);
+//LeftHand
+ellipse(330,HandYPostiton, HandWidth, HandHeight);
 	
 //Head
 var r = 255;
