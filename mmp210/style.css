@@ -1,0 +1,24 @@
+h1{ 
+    color: yellow;
+}
+
+body{
+    font-family: Catamaran, sans-serif;
+    line-height: 1.4em;
+
+}
+h1{
+  color: red;
+  font-weight: 900;    
+}
+
+.intro{
+      font-size: 1.5em;
+}
+
+nav li {
+    color: #00F;
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
