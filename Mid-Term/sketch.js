@@ -3,7 +3,7 @@ function setup() {
     createCanvas(740, 600);
     background("black");
     
-  for(var i = 0; i < 25; i++){
+  for(var i = 0; i < 50; i++){
     var xPos = random(10,width);
     var yPos = random(10,height);
     r = random(150,250);
